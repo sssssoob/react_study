@@ -1,7 +1,14 @@
-import Say from "./Say";
+import { Component } from "react";
+import ScrollBox from "./ScrollBox";
 
-const App = () => {
-  return <Say />;
-};
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <ScrollBox />
+      </div>
+    );
+  }
+}
 
 export default App;

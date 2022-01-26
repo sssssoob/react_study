@@ -5,7 +5,7 @@ const Say = () => {
   const onClickEnter = () => setMessage("안녕하세요!");
   const onClickLeave = () => setMessage("안녕히가세요");
 
-  const [color, setColor] = useState("");
+  const [color, setColor] = useState("black");
 
   return (
     <div>
